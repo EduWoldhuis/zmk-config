@@ -1,0 +1,11 @@
+#include "manta.dtsi"
+
+&kscan0{
+        col-gpios = <&gpio0 0  GPIO_ACTIVE_LOW>, /* P00 */
+                    <&gpio0 1  GPIO_ACTIVE_LOW>, /* P01 */
+                    <&gpio0 16 GPIO_ACTIVE_LOW>, /* P16 */
+                    <&gpio0 14 GPIO_ACTIVE_LOW>, /* P14 */
+                    <&gpio0 21 GPIO_ACTIVE_LOW>, /* P21 */
+                    <&gpio0 20 GPIO_ACTIVE_LOW>, /* P20 */
+                    <&gpio0 10 GPIO_ACTIVE_LOW>; /* P10 */
+};
