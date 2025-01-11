@@ -29,9 +29,9 @@
         label = "KSCAN";
         diode-direction = "col2row";
 
-        row-gpios = <&gpio0 19 GPIO_ACTIVE_LOW>, /* P19 */
-                    <&gpio0 18 GPIO_ACTIVE_LOW>, /* P18 */
-                    <&gpio0 15 GPIO_ACTIVE_LOW>; /* P15 */
+        row-gpios = <&pro_micro 15 GPIO_ACTIVE_LOW>,
+                    <&pro_micro 18 GPIO_ACTIVE_LOW>,
+                    <&pro_micro 19 GPIO_ACTIVE_LOW>;
 
 
     };
