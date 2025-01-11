@@ -1,5 +1,5 @@
-config SHIELD_MANTA_LEFT
+config SHIELD_manta_LEFT
     def_bool $(shields_list_contains, manta_left)
 
-config SHIELD_MANTA_RIGHT
+config SHIELD_manta_RIGHT
     def_bool $(shields_list_contains, manta_right)

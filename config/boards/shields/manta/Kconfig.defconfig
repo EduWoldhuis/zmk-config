@@ -1,4 +1,4 @@
-if SHIELD_MANTA_LEFT
+if SHIELD_manta_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "manta"
@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_MANTA_LEFT || SHIELD_MANTA_RIGHT
+if SHIELD_manta_LEFT || SHIELD_manta_RIGHT
 
 config ZMK_SPLIT
     default y
