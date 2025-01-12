@@ -17,7 +17,7 @@
         layer_1 {
             bindings = <
                 &kp GRAVE      &kp N1          &kp N2        &kp N3        &kp N4         &kp N5         &kp SPACE &kp N6         &kp N7          &kp N8        &kp N9        &kp N0         &kp BSPC  &kp ENTER 
-                &kp TILDE      &bp BT_CLR_ALL    &kp LS(AT)    &kp LS(POUND) &kp LS(DLLR)   &kp LS(PRCNT)  &kp LALT  &kp LS(CARET)  &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)   &kp BSLH  &kp RALT
+                &kp TILDE      &bt BT_CLR_ALL    &kp LS(AT)    &kp LS(POUND) &kp LS(DLLR)   &kp LS(PRCNT)  &kp LALT  &kp LS(CARET)  &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)   &kp BSLH  &kp RALT
                 &kp PRINTSCREEN &kp LS(UNDER)  &kp DOT       &kp EQUAL     &kp LS(PLUS)   &kp LGUI       &kp LCTRL  &kp MINUS      &kp LBKT        &kp RBKT      &kp LS(LBRC)  &kp LS(RBRC)   &kp RSHFT &kp END
             >;
         };
