@@ -20,8 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: manta_left
-    snippet: zmk-usb-logging
+    shield: settings_reset
   - board: nice_nano_v2
-    shield: manta_right
-    snipper: zmk-usb-logging
+    shield: settings_reset
