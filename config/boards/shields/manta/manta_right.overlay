@@ -1,6 +1,6 @@
 #include "manta.dtsi"
 &default_transform {
-  col-offset = <7>;
+  col-offset = <6>;
 };
 &kscan0 {
         col-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>, /* P10 */
