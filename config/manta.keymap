@@ -17,16 +17,16 @@
         layer_1 {
             bindings = <
                 &kp GRAVE  &kp N1        &kp N2        &kp N3        &kp N4         &kp N5          &trans         &trans    &kp N6        &kp N7        &kp N8        &kp N9        &kp N0    &kp BSPC 
-                &trans     &kp ESC       &kp LS(AT)    &kp LS(POUND) &kp LS(DLLR)   &kp LS(PRCNT)   &kp LALT       &kp LALT  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp PIPE  &kp RALT
+                &trans     &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND) &kp LS(DLLR)   &kp LS(PRCNT)   &kp LALT       &kp LALT  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp PIPE  &kp RALT
                 &trans     &kp LS(UNDER) &kp MINUS     &kp EQUAL     &kp LS(PLUS)   &kp PRINTSCREEN &trans         &trans    &kp LBKT      &kp RBKT      &kp LS(LBRC)  &kp LS(RBRC)  &kp BSLH  &kp TILDE
             >;
         };
 
         layer_2 {
             bindings = <
-                &kp ESC    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5  &kp SPACE    &trans      &trans    &trans    &kp UP    &trans    &kp DEL   &kp RALT
-                &trans     &kp F6    &kp F7    &kp F8    &kp F9    &kp F10 &kp LALT     &trans      &trans    &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_UP &kp RET
-                &trans     &trans    &trans    &trans    &trans    &trans  &kp HOME     &trans      &trans    &trans    &trans    &kp ESC   &kp PG_DN &trans
+                &kp ESC    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp SPACE  &trans      &trans    &trans    &kp UP    &trans    &kp DEL   &kp RALT
+                &trans     &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp LALT   &trans      &trans    &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_UP &kp RET
+                &trans     &trans    &trans    &trans    &trans    &kp HOME  &trans     &trans      &kp END   &trans    &trans    &kp ESC   &kp PG_DN &kp LCTRL
             >;
         };
     };
