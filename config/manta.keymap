@@ -12,18 +12,23 @@
         };
 
         clear_bt {
-            bindings = <&bt BT_CLR_ALL>;
+            bindings = <&bt BT_CLR>;
             key-positions = <28 41 0>;
         };
 
-        bt_next {
-            bindings = <&bt BT_NXT>;
+        bt_primary {
+            bindings = <&bt BT_SEL 0>;
             key-positions = <28 41 1>;
         };
 
-        bt_previous {
-            bindings = <&bt BT_PRV>;
+        bt_secondary {
+            bindings = <&bt BT_SEL 1>;
             key-positions = <2 28 41>;
+        };
+
+        bt_tertiary {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <28 41 3>;
         };
     };
 
