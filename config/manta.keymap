@@ -53,9 +53,9 @@
 
         layer_2 {
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp SPACE    &trans  &trans   &trans    &kp UP    &trans     &kp DEL    &kp RALT
-&trans   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10   &kp LALT     &trans  &trans   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_UP  &kp RET
-&trans   &trans  &trans  &trans  &trans  &kp HOME  &trans       &trans  &kp END  &trans    &trans    &kp ESC    &kp PG_DN  &kp LCTRL
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &kp SPACE    &trans  &trans    &trans    &kp UP    &trans     &kp DEL    &kp RALT
+&trans   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp LALT     &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_UP  &kp RET
+&trans   &trans  &trans  &trans  &trans  &trans   &trans       &trans  &kp HOME  &kp END   &trans    &kp ESC    &kp PG_DN  &kp LCTRL
             >;
         };
     };
